@@ -1,0 +1,83 @@
+2018-12-03T12:51:32.7081123Z ##[section]Starting: Maven world/pom.xml
+2018-12-03T12:51:32.7086172Z ==============================================================================
+2018-12-03T12:51:32.7086229Z Task         : Maven
+2018-12-03T12:51:32.7086263Z Description  : Build with Apache Maven
+2018-12-03T12:51:32.7086316Z Version      : 3.143.3
+2018-12-03T12:51:32.7086348Z Author       : Microsoft Corporation
+2018-12-03T12:51:32.7086381Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkID=613723)
+2018-12-03T12:51:32.7086434Z ==============================================================================
+2018-12-03T12:51:44.5080077Z [command]C:\Windows\system32\cmd.exe /D /S /C "C:\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\mvn.cmd -version"
+2018-12-03T12:51:44.5080340Z Apache Maven 3.5.0 (ff8f5e7444045639af65f6095c62210b5713f426; 2017-04-03T19:39:06Z)
+2018-12-03T12:51:44.5080576Z Maven home: C:\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\..
+2018-12-03T12:51:44.5080805Z Java version: 1.8.0_144, vendor: Oracle Corporation
+2018-12-03T12:51:44.5081048Z Java home: C:\Program Files\Java\jdk1.8.0_144\jre
+2018-12-03T12:51:44.5081246Z Default locale: en_US, platform encoding: Cp1252
+2018-12-03T12:51:44.5081476Z OS name: "windows server 2012 r2", version: "6.3", arch: "amd64", family: "windows"
+2018-12-03T12:51:44.5085921Z SYSTEMVSSCONNECTION exists true
+2018-12-03T12:51:44.5087387Z [command]C:\Windows\system32\cmd.exe /D /S /C "C:\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\mvn.cmd -f C:\RCS-Demo\vsts-agent-win-x64-2.142.1\_work\1\s\world\pom.xml --settings ./world/maven/settings.xml deploy"
+2018-12-03T12:51:44.5087541Z [INFO] Scanning for projects...
+2018-12-03T12:51:44.5087658Z [WARNING] 
+2018-12-03T12:51:44.5087797Z [WARNING] Some problems were encountered while building the effective model for RCSmaven:RCS-maven-build:jar:1
+2018-12-03T12:51:44.5087920Z [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 13, column 21
+2018-12-03T12:51:44.5089270Z [WARNING] 
+2018-12-03T12:51:44.5089458Z [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+2018-12-03T12:51:44.5089572Z [WARNING] 
+2018-12-03T12:51:44.5089789Z [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+2018-12-03T12:51:44.5089937Z [WARNING] 
+2018-12-03T12:51:44.5090057Z [INFO] 
+2018-12-03T12:51:44.5090195Z [INFO] ------------------------------------------------------------------------
+2018-12-03T12:51:44.5090312Z [INFO] Building sample-maven-build 1
+2018-12-03T12:51:44.5090430Z [INFO] ------------------------------------------------------------------------
+2018-12-03T12:51:44.5090564Z [INFO] 
+2018-12-03T12:51:44.5090683Z [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ RCS-maven-build ---
+2018-12-03T12:51:44.5090805Z [WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-03T12:51:44.5090969Z [INFO] skip non existing resourceDirectory C:\RCS-Demo\vsts-agent-win-x64-2.142.1\_work\1\s\world\src\main\resources
+2018-12-03T12:51:44.5091088Z [INFO] 
+2018-12-03T12:51:44.5091222Z [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ RCS-maven-build ---
+2018-12-03T12:51:44.5091341Z [INFO] Changes detected - recompiling the module!
+2018-12-03T12:51:44.5091463Z [WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2018-12-03T12:51:44.5091595Z [INFO] Compiling 1 source file to C:\RCS-Demo\vsts-agent-win-x64-2.142.1\_work\1\s\world\target\classes
+2018-12-03T12:51:44.5091823Z [INFO] 
+2018-12-03T12:51:44.5091959Z [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ RCS-maven-build ---
+2018-12-03T12:51:44.5092250Z [WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-03T12:51:44.5092407Z [INFO] skip non existing resourceDirectory C:\RCS-Demo\vsts-agent-win-x64-2.142.1\_work\1\s\world\src\test\resources
+2018-12-03T12:51:44.5093392Z [INFO] 
+2018-12-03T12:51:44.5093546Z [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ RCS-maven-build ---
+2018-12-03T12:51:44.5093681Z [INFO] No sources to compile
+2018-12-03T12:51:44.5093796Z [INFO] 
+2018-12-03T12:51:44.5093913Z [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ RCS-maven-build ---
+2018-12-03T12:51:44.5094037Z [INFO] No tests to run.
+2018-12-03T12:51:44.5094151Z [INFO] 
+2018-12-03T12:51:44.5094267Z [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ RCS-maven-build ---
+2018-12-03T12:51:44.5094404Z [INFO] Building jar: C:\RCS-Demo\vsts-agent-win-x64-2.142.1\_work\1\s\world\target\RCS-maven-build-1.jar
+2018-12-03T12:51:44.5094519Z [INFO] 
+2018-12-03T12:51:44.5094637Z [INFO] --- maven-install-plugin:2.4:install (default-install) @ RCS-maven-build ---
+2018-12-03T12:51:44.5094796Z [INFO] Installing C:\RCS-Demo\vsts-agent-win-x64-2.142.1\_work\1\s\world\target\RCS-maven-build-1.jar to C:\Users\Rithwika\.m2\repository\RCSmaven\RCS-maven-build\1\RCS-maven-build-1.jar
+2018-12-03T12:51:44.5094937Z [INFO] Installing C:\RCS-Demo\vsts-agent-win-x64-2.142.1\_work\1\s\world\pom.xml to C:\Users\Rithwika\.m2\repository\RCSmaven\RCS-maven-build\1\RCS-maven-build-1.pom
+2018-12-03T12:51:44.5095104Z [INFO] 
+2018-12-03T12:51:44.5095229Z [INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ RCS-maven-build ---
+2018-12-03T12:51:44.5095372Z Uploading: https://rithwika-s.pkgs.visualstudio.com/_packaging/RCS2/maven/v1/RCSmaven/RCS-maven-build/1/RCS-maven-build-1.jar
+2018-12-03T12:51:45.2918415Z Progress (1): 2.0/2.4 kB
+2018-12-03T12:51:45.5960325Z Progress (1): 2.4 kB    
+2018-12-03T12:51:45.5963348Z                     
+2018-12-03T12:51:45.5963561Z Uploading: https://rithwika-s.pkgs.visualstudio.com/_packaging/RCS2/maven/v1/RCSmaven/RCS-maven-build/1/RCS-maven-build-1.pom
+2018-12-03T12:51:47.3036548Z Progress (1): 1.9 kB
+2018-12-03T12:51:47.3038501Z                     
+2018-12-03T12:51:47.3207881Z [INFO] ------------------------------------------------------------------------
+2018-12-03T12:51:47.3233359Z [INFO] BUILD FAILURE
+2018-12-03T12:51:47.3241520Z [INFO] ------------------------------------------------------------------------
+2018-12-03T12:51:47.3255230Z [INFO] Total time: 11.194 s
+2018-12-03T12:51:47.3311785Z C:\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin\mvn.cmd failed with return code: 1
+2018-12-03T12:51:47.3311906Z [INFO] Finished at: 2018-12-03T12:51:47Z
+2018-12-03T12:51:47.3313045Z Could not retrieve code analysis results - Maven run failed.
+2018-12-03T12:51:47.3313108Z [INFO] Final Memory: 17M/42M
+2018-12-03T12:51:47.3320001Z [INFO] ------------------------------------------------------------------------
+2018-12-03T12:51:47.3351774Z [ERROR] Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy) on project RCS-maven-build: Failed to deploy artifacts: Could not transfer artifact RCSmaven:RCS-maven-build:jar:1 from/to rithwika-s-visualstudio-com-rithwika-s-rcs2 (https://rithwika-s.pkgs.visualstudio.com/_packaging/RCS2/maven/v1): Failed to transfer file: https://rithwika-s.pkgs.visualstudio.com/_packaging/RCS2/maven/v1/RCSmaven/RCS-maven-build/1/RCS-maven-build-1.jar. Return code is: 409, ReasonPhrase: Conflict - The feed 'RCS2' already contains file 'RCS-maven-build-1.jar' in package 'rcsmaven:rcs-maven-build:1'. (DevOps Activity ID: 37B365D5-99FC-4882-861A-F546F90044BB). -> [Help 1]
+2018-12-03T12:51:47.3353359Z [ERROR] 
+2018-12-03T12:51:47.3354987Z [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+2018-12-03T12:51:47.3355365Z [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+2018-12-03T12:51:47.3355607Z [ERROR] 
+2018-12-03T12:51:47.3355804Z [ERROR] For more information about the errors and possible solutions, please read the following articles:
+2018-12-03T12:51:47.3356019Z [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+2018-12-03T12:51:47.3404461Z ##[error]Build failed.
+2018-12-03T12:51:47.3442373Z ##[section]Finishing: Maven world/pom.xml

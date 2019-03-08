@@ -1,0 +1,68 @@
+<items>
+<client>
+<id>40230</id>
+</client>
+<name>
+<![CDATA[ Atlas Financial Services ]]>
+</name>
+<site>
+<id>48517</id>
+</site>
+</items>
+<name>
+<![CDATA[ Brentwood, NY ]]>
+</name>
+<workstation>
+<id>246841</id>
+<name>
+<![CDATA[ ATLAS1 ]]>
+</name>
+<status>
+<![CDATA[ offline ]]>
+</status>
+<checkcount>
+<dsc_247>2</dsc_247>
+<pass>8</pass>
+<clear>0</clear>
+<fail>0</fail>
+</checkcount>
+<checkcount>
+<dsc_247>1</dsc_247>
+<pass>15</pass>
+<clear>1</clear>
+<fail>0</fail>
+</checkcount>
+<checkcount>
+<dsc_247>3</dsc_247>
+<pass>1</pass>
+<clear>0</clear>
+<fail>0</fail>
+</checkcount>
+</workstation>
+<workstation>
+<id>246840</id>
+<name>
+<![CDATA[ ATLAS2 ]]>
+</name>
+<status>
+<![CDATA[ ok ]]>
+</status>
+<checkcount>
+<dsc_247>2</dsc_247>
+<pass>7</pass>
+<clear>0</clear>
+<fail>0</fail>
+</checkcount>
+<checkcount>
+<dsc_247>1</dsc_247>
+<pass>14</pass>
+<clear>1</clear>
+<fail>0</fail>
+</checkcount>
+<checkcount>
+<dsc_247>3</dsc_247>
+<pass>1</pass>
+<clear>0</clear>
+<fail>0</fail>
+</checkcount>
+</workstation>

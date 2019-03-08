@@ -1,0 +1,12 @@
+<root>
+  <fruit color="red">apple</fruit>
+  <fruit color="green">pear</fruit>
+  <veg color="orange">carrot</veg>
+  <meat animal="cow">beef</meat>
+  <xyz>
+    <fruit color="blue">blueberry</fruit>
+    <veg color="green">broccoli</veg>
+  </xyz>
+  <fruit color="purple">grape</fruit>
+  <cheese color="yellow">cheddar</cheese>
+</root>
